@@ -16,6 +16,8 @@ echo "<th> Nombre </th>";
 echo "<th> Ciudad </th>";
 echo "<th> Telefono </th>";
 echo "<th> </th>";
+echo "<th> </th>";
+echo "<th> </th>";
 echo "</tr>";
 
 foreach($lista as $per) {
@@ -26,6 +28,8 @@ foreach($lista as $per) {
     echo "<td>".$per['ciudad']."</td>";
     echo "<td>".$per['telefono']."</td>";
     echo "<td> <a href='../controlador/formularioEditarControlador.php?id=".$per['codigo']."' > Editar </a> </td>";
+    echo "<td> <a href='../controlador/formularioDetalleControlador.php?id=".$per['codigo']."' > Detalle </a> </td>";
+    echo "<td> <a href='../controlador/formularioBorrarControlador.php?id=".$per['codigo']."' > Borrar </a> </td>";
     echo "<tr>";
 
 }

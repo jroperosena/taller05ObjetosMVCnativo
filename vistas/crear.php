@@ -6,20 +6,20 @@
 <form action="../controlador/crarControlador.php" method='post'>
 
 <div>
-       <div> <input type="text" name="codigo" placeholder="1010"></div>
+       <div> <input type="text" name="codigo" placeholder="1010" required></div>
  </div>
 
  <div>
-       <div> <input type="text" name="nombre" placeholder="Juan Perez"></div>
+       <div> <input type="text" name="nombre" placeholder="Juan Perez" required></div>
  </div>
 
  <div>
-       <div> <input type="text" name="ciudad" placeholder="Bogota"></div>
+       <div> <input type="text" name="ciudad" placeholder="Bogota" required></div>
  </div>
-
+      
 
  <div>
-       <div> <input type="text" name="telefono" placeholder="393939"></div>
+       <div> <input type="text" name="telefono" placeholder="393939" required></div>
  </div>
 
  

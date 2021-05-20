@@ -10,14 +10,14 @@ echo "</pre>";
 */
 ?>
 
-
+<h3></h3>
 
 <div> 
 
 <form action="../controlador/editarControlador.php" method='post'>
-
+<input type="hidden" name="codigo" value="<?php echo $persona['codigo'] ?>">
 <div>
-       <div> <input type="text" name="codigo" value="<?php echo $persona['codigo'] ?> "></div>
+       <div> <?php echo $persona['codigo'] ?> </div>
  </div>
 
  <div>
